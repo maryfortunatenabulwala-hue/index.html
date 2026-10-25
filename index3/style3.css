@@ -1,0 +1,35 @@
+.navbar{
+   display: flex; 
+   flex-direction: row; 
+   justify-content: space-between; 
+   align-items: center;
+   height: auto; 
+   gap: 50px;  
+   text-decoration: none;     
+        } 
+  .navbar{
+    display: flex; 
+    justify-content: center; 
+    gap: 120px; 
+    text-decoration: none; 
+    color: brown; 
+    background-color: aqua; 
+    padding: 10px;
+          } 
+   #title
+   {
+     color: brown; 
+     font-size: large; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+     font-weight: bold; 
+     text-align: center; 
+     text-decoration: underline;
+   } 
+   .content
+   {
+     color: blueviolet; 
+   } 
+   
+   
+
+   

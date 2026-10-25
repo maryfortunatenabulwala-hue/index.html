@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title> 
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="calculator"> 
+        <div>
+            <h1 class="Welcome">
+            Welcome to calculator
+            </h1>
+        </div>
+        <div id ="display">
+        0
+        </div> 
+        <div class="buttons">
+        <button style="color: black; background-color: gray;" oneclick="cleardisplay()">
+            AC
+         </button> 
+         <button  style="color: black; background-color: gray;" oneclick="delete()">
+            Clr
+         </button> 
+         <button style="color: black; background-color: gray;"  oneclick="append(%)">
+            %
+         </button> 
+         <button style="background-color:orange;color:white;" oneclick="append(/)">
+            /
+         </button> 
+         <button oneclick="append(7)">
+           7
+         </button> 
+         <button oneclick="append(8)"> 
+           8
+         </button> 
+         <button oneclick="append(9)">
+           9
+         </button> 
+         <button style="background-color: orange;color: white;" oneclick="append(X)">
+            X
+         </button>
+         <button oneclick="append(4)"> 
+          4
+         </button> 
+         <button oneclick="append(5)">
+          5
+         </button> 
+         <button oneclick="append(6)">
+          6
+         </button> 
+         <button style="background-color:orange;color: white;" oneclick="append(-)">
+          -
+         </button> 
+         <button oneclick="append(1)">
+          1
+         </button> 
+         <button oneclick="append(2)">
+          2
+         </button> 
+         <button oneclick="append(3)"> 
+          3
+         </button> 
+         <button style="background-color: orange; color: white;" oneclick="append(+)">
+          +
+         </button> 
+         <button oneclick="append(0)">
+          0
+         </button> 
+         <button oneclick="append(00)">
+          00
+         </button> 
+         <button oneclick="append(.)">
+          .
+         </button>
+         <button style="background-color:orange; color: white;"  oneclick="calculate()">
+          =
+         </button>
+     </div> 
+    </div>
+</body>
+</html>
